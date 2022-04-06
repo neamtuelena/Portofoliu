@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Cakeshoop</title>
+<link  rel="stylesheet" href="CSS\style.css" type="text/css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+    </head>
+    <body class="body">
+      <header>
+        <h1 >Cakeshoop</h1>
+      </header>
+      <nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+        <!-- Brand -->
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li><img  class="logo" src="img/logo.jfif" width="2%" height="2%"></li>
+          <li class="nav-item"><a class="nav-link active" href="pagina1.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina2.html">Despre noi</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina3.html">Intrebari frecvente</a></li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="pagina4.html" id="navbardropdown" role="button" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Produse</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="torturi.html">Torturi</a>
+              <a class="dropdown-item" href="prajituri.html">Prajituri</a>
+              
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="pagina5.html">Contacte</a></li>
+        </ul>
+      </nav>
+      <table style="width:100%">
+          <tr >
+            <td class="td3" colspan="2">Torturile noastre<br>
+      
+              In functie de preferinte, putem pregati torturi variate, avand ca modele si torturile noastre dar, suntem deschisi si la ideile voastre. Torturile pot fi personalizate / imbracate in pasta de zahar si decorate cu figurine felurite: masinute, personaje animate, animale, etc. 
+             
+            </td>
+            </tr>
+        </table>
+        <div class="container1">
+          <img src="img/tort-botez.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity">
+        </div>
+        <div class="container1">
+          <img src="img/tort-copii.png" style="max-width:100%;cursor:pointer" 
+          onclick="onClick(this)" class="modal-hover-opacity">
+        </div>
+        <div class="container1">
+          <img src="img/tort1.png" style="max-width:100%;cursor:pointer" 
+          onclick="onClick(this)" class="modal-hover-opacity">
+        </div>
+        <div class="container1">
+          <img src="img/tort.png" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+        </div>
+        
+        
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="modal-content">
+        
+          <img id="img01" style="max-width:100%">
+
+          <style>
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: green;
+              color: black;
+              text-align: center;
+            }
+            </style>
+            
+            
+            <div class="footer">
+              <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="pagina5.html">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="pagina1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="pagina3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="pagina4.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="pagina6.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="pagina7.html">6</a></li>
+                <li class="page-item"><a class="page-link" href="pagina1.html">Next</a></li>
+              </ul>
+              <p>Creat de Neamtu Elena</p>
+            </div>
+               
+            
+                
+            
+   <script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+  </script>
+  </body>

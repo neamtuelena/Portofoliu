@@ -1,0 +1,44 @@
+h1{
+    color:black;
+    font-family: 'Lucida Sans';
+}
+.nav{
+   overflow: hidden;
+}
+.nav a{
+    display: block;
+    float: ;left;
+    color: black;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    
+}
+.rand{
+    content: "";
+    display: table;
+    clear: both;
+}
+.coloana1{
+    float:left ;
+    width: 27%;
+}
+.coloana2{
+    float: right;
+    width: 70%;
+    font-size: 20px;
+}
+body{background-color: #adebad;
+    font-family: Cambria;
+}
+tabel, th, tr{
+    background-color: #196719;
+    border:1px solide;
+}
+img{
+    width: 339px;
+    height: 200px;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Cakeshoop</title>
+<link  rel="stylesheet" href="CSS\style.css" type="text/css">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+    </head>
+    <body class="body">
+      <header>
+      <h1 >Cakeshoop</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+      <!-- Brand -->
+      
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li><img class="logo" src="img/logo.jfif" width="2%" height="2%"></li>
+        <li class="nav-item"><a class="nav-link active" href="pagina1.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="pagina2.html">Despre noi</a></li>
+        <li class="nav-item"><a class="nav-link" href="pagina3.html">Intrebari frecvente</a></li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="pagina4.html" id="navbardropdown" role="button" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Produse</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="torturi.html">Torturi</a>
+            <a class="dropdown-item" href="prajituri.html">Prajituri</a>
+            
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="pagina55.html">Contacte</a></li>
+      </ul>
+    </nav>
+	
+
+
+<form id="contact-form" method="post" action="mailto:panainteelenadaniela@gmail.com" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls;" style="background-color:gray; width:1000px; margin: auto; padding:15px">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name" style="color:white;">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname" style="color:white;">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email" style="color:white;">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email" style="color:white;">Subject *</label>
+                    <input id="form_email" type="text" name="subject" class="form-control" placeholder="Please state the subject *" required="required" data-error="Subject is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message" style="color:white;">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p style="color:red;">
+                    <strong>*</strong> These fields are required.
+				</p>
+            </div>
+        </div>
+    </div>
+</form>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1--yPkRM8QG5NNc8S5PCdnXfBhOxviGQa" width="640" height="480"></iframe>
+
+<div style="background-color:gray; text-align: center; padding:15px">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark centrat-nav">
+		<a href="https://www.facebook.com/">
+			<img src="img/Facebook.jfif" width="70" height="50">
+		</a>
+		<a href="https://www.youtube.com/">
+			<img src="img/youtube.png" width="70" height="50">
+		</a>
+		<a href="https://ro.linkedin.com/">
+			<img src="img/linkendin.png" width="70" height="50">
+		</a>
+		<a href="https://www.instagram.com/">
+			<img src="img/instagram.jfif" width="70" height="50">
+		</a>
+	</nav>
+</div>
+<br>
+<br>
+<br>
+<br>
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: green;
+      color: black;
+      text-align: center;
+    }
+    </style>
+    
+    
+    <div class="footer">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="pagina5.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="pagina1.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="pagina3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="pagina4.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="pagina6.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="pagina7.html">6</a></li>
+        <li class="page-item"><a class="page-link" href="pagina1.html">Next</a></li>
+      </ul>
+      <p>Creat de Neamtu Elena</p>
+    </div>
+       
+    
+        </body>
+    </html>
